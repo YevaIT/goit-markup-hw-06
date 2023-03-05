@@ -484,6 +484,9 @@ body {
     margin-top: 0;
 
 }
+.social-media {
+    margin-left: 120px;
+}
 
 .social-media-item {
     width: 40px;
@@ -508,7 +511,6 @@ body {
 
 .footer-content {
     display: flex;
-    gap: 120px;
 }
 
 .social-media-link:is(:hover, :focus) {
@@ -532,6 +534,7 @@ body {
 
 .footer-input-wrapper {
     display: flex;
+
 }
 
 .input-field {
@@ -552,6 +555,9 @@ body {
     font-weight: 400;
     font-size: 12px;
     color: rgba(255, 255, 255, 0.6);
+}
+.footer-input-form {
+    margin-left: 80px;
 }
 
 .footer-input-btn {
@@ -679,6 +685,10 @@ body {
 
 }
 
+.modal-form-link {
+    color: var(--primary-text-coor);
+}
+
 .modal-form-input {
     width: 100%;
     height: 40px;
@@ -740,6 +750,7 @@ body {
     cursor: pointer;
     border-radius: 2px;
     margin-right: 8px;
+    transition: var(--transition);
     
 }
 
